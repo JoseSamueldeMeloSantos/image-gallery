@@ -4,8 +4,8 @@ html {
 }
 
 :root {
-    --image-x-size: 25em;
-    --image-y-size: 22em;
+    --image-x-size: 19em;
+    --image-y-size: 17em;
     --animation-duration: .2s;
 }
 
@@ -75,7 +75,7 @@ section {
     background-color: white;
     border-radius: 1em;
     padding: 2em;
-    width: 60.4vw;
+    width: 79em;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
