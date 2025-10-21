@@ -43,7 +43,7 @@ html {
     
     .image-container_desc{
         visibility: visible;
-        bottom: 1px;
+        bottom: 0px;
     }
 
     .image-container__img {
@@ -52,5 +52,25 @@ html {
     }
 }
 
+body {
+    background-color: rgb(209, 209, 209);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    background-color: white;
+    border-radius: 1em;
+    padding: 2em;
+    width: 60.4vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
 
 
