@@ -6,10 +6,11 @@ html {
 :root {
     --image-x-size: 19em;
     --image-y-size: 17em;
-    --animation-duration: .2s;
+    --animation-duration: .3s;
 }
 
 .image-container {
+    flex-grow: 1;
     border-radius: 1em;
     position: relative;
     display: flex;
@@ -19,11 +20,11 @@ html {
 }
 
 .image-container_desc{
-    visibility: hidden;
+    visibility: visible;
     position: absolute;
-    bottom: -3rem;
+    bottom: -8rem;
 
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: bold;
     background-color: black;
@@ -44,7 +45,6 @@ html {
 .image-container__link:hover  {
     
     .image-container_desc{
-        visibility: visible;
         bottom: 0px;
     }
 
